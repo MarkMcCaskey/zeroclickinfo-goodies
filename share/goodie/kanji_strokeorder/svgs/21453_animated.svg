@@ -1,0 +1,14 @@
+<svg width="109px" height="109px" viewBox="0 0 px 109px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"  baseProfile="full">
+<path d="M28.13,22.29c1.84,0.48,5.22,0.64,7.06,0.48C50,21.5,64.62,19.12,79.06,18.04c3.06-0.23,4.91-0.02,6.44,0.22" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M31.24,23c1.13,1.13,1.49,2.69,1.4,4.89C31.75,50,29.62,73.25,15.81,89.47" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="1s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M35.09,43.98c1.81,0.37,2.76,0.74,6.4,0.37C49.88,43.5,66.25,40,70.83,38.7c3.42-0.97,5.17,1.43,3.89,4.31C64.06,66.95,51.88,83.25,26,93.51" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="2s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M37.5,52.82c5.09,0.96,28.95,25.78,46.67,36.36c2.76,1.65,4.77,2.74,7.33,3.29" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="3s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+</svg>

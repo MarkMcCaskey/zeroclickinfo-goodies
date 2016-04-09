@@ -1,0 +1,23 @@
+<svg width="109px" height="109px" viewBox="0 0 px 109px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"  baseProfile="full">
+<path d="M35.25,27.74c0.09,1.2-0.11,2.35-0.58,3.44c-4.04,8.19-9.23,15.34-18.2,23.7" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M33,40.25c5.12,2.62,9.81,7.05,12.25,12.88" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="1s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M79.25,28.74c0,1.13-0.08,2.04-0.59,2.95c-3.29,6.43-8.92,14.43-15.94,20.68" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="2s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M78.14,39.71C84,43.5,87.75,47.75,91.25,53.5" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="3s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M25.63,67.42c2.99,0.5,5.99,0.53,9,0.11c11.48-1.12,28.2-2.57,39.75-3.15c2.93-0.38,5.85-0.07,8.75,0.41" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="4s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M15.13,89.73c4.19,0.65,8.4,0.74,12.62,0.27c16.35-1.21,38.53-2.4,54-3.12c4.31-0.1,8.61,0.13,12.88,0.69" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="5s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M53.17,15.62c0.98,0.98,1.27,2.26,1.27,3.89c0,12-0.07,52.38-0.07,67.75" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="6s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+</svg>

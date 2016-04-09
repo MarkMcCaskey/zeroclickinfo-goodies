@@ -1,0 +1,11 @@
+<svg width="109px" height="109px" viewBox="0 0 px 109px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"  baseProfile="full">
+<path d="M52.34,21.24c0.83,0.83,1.31,2.01,1.31,3.71c0,6.86-0.01,23.07-0.02,33.67c0,4.55,0,8.07,0,9.38" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M18.25,33.75c5.77,4.41,14.92,18.13,16.36,24.99" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="1s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+<path d="M84.66,32.16c0.09,1.29,0.03,2.46-0.5,3.65c-2.66,6.06-10.15,15.68-17.89,23.43" style="fill:none;stroke:black;stroke-width:3;opacity:0">
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="2s" dur="1s" repeatCount="0" fill="freeze" />
+</path>
+</svg>
