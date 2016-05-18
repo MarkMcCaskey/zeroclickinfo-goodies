@@ -1,8 +1,8 @@
 <svg width="109px" height="109px" viewBox="0 0 px 109px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"  baseProfile="full">
 <path d="M31.85,35.01c13.91,16.69,41.54,50.39,47.59,57.61" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 <path d="M77.31,35.26c-9.26,11.36-39.67,48.09-47.31,57.07" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="1s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="1s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 </svg>

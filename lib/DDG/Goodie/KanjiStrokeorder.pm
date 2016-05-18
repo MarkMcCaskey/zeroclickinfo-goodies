@@ -7,10 +7,11 @@ package DDG::Goodie::KanjiStrokeorder;
 # used in Chinese) as well, but I'm less knowledgable about them and distinguishing them
 # from Kanji may prove difficult.
 
-use utf8;
-use DDG::Goodie;
 use strict;
-with 'DDG::GoodieRole::ImageLoader';
+use DDG::Goodie;
+use utf8;
+#with 'DDG::GoodieRole::ImageLoader';
+
 
 zci answer_type => 'kanji_strokeorder';
 
@@ -39,99 +40,54 @@ handle remainder => sub {
 
 
 	my $image = "/svgs/$list[0]";
-	my $image_tag = goodie_img_tag({$image, 80});
+	#my $image_tag = goodie_img_tag({$image, 80});
 	my $title_text = "Stroke order for $count kanji";
 
 	my $image_prefix = "/share/goodie/kanji_strokeorder/svgs/";
 	my $anim_suffix = "_animated.svg";
 	my $frame_suffix = "_frames.svg";
 
-	my $i;
+
+	my $plaintext = "Kanji stroke order:";
+
 	my @items;
-	foreach $i (0 .. ($count - 1)) {
-        $items[$i] = { #map( {
-		media_item => {
-			title  => "$kanji[$i]",
-			image       =>  $image_prefix . ord($kanji[$i]) . $anim_suffix,
-			options => {
-				altSubtitle => false,
-				subtitle    => false,
-				description => false,
-				footer      => false,
-				dateBadge   => false,
-			image       => $image_prefix . ord($kanji[$i]) . $anim_suffix
+	foreach my $i (0 .. $#kanji) {
+		my %result = ( 
+			kanji_name  => $kanji[$i], 
+			image => scalar share("svgs/".ord($kanji[$i])."_animated.svg")->slurp,
+			url => "https://en.wiktionary.org/wiki/".$kanji[$i], #add support for other languages later
+			detail => {
+				url => "https://en.wiktionary.org/wiki/".$kanji[$i], #add support for other languages later,
+				image => scalar share("svgs/".ord($kanji[$i])."_frames.svg")->slurp
 			}
-			},
-		media_item_detail => {
-			title => "$kanji[$i]",
-			options => {
-				altSubtitle => false,
-				description => false,
-				callout     => false,
-			image => $image_prefix . ord($kanji[$i]) . $frame_suffix
-#				image       => true
-			},
+		);
 
-			image => $image_prefix . ord($kanji[$i]) . $frame_suffix
-			} # ,
-	#	media_detail => {
-#			url => "lel",
-#			image => $image_prefix . ord($kanji[$i]) . $anim_suffix,
-#			options => {
-#				title => false,
-#				subtitle => false,
-#				content => false,
-#				infoboxData => false,
-#				image => true
-#			},
-#			description => 'wat'
-#			} 
-			}; #, @kanji) };
-}
+		push @items, \%result;
 
-	    return "plain text response", #no idea if this is true
+		$plaintext .= "\n$kanji[$i]: "
+	};
+
+	print $plaintext;
+	print "\n\n@@\n\n";
+
+	    return $plaintext, #no idea if this is true
 		structured_answer => {
 			id   => 'kanji_strokeorder',
-			name => 'Stroke order', 
+	#		name => 'Answer',#'Stroke order', 
 			data => \@items,
 			meta => {
-				itemType => 'kanji stroke order diagrams',
-				options => {
-					sourceName => false,
-					sourceUrl => false,
-					searchTerm => false,
-					itemType => true,
-					primaryText => false,
-					secondaryText => false,
-					sourceLogo => false,
-					sourceIcon => false,
-					sourceIconUrl => false,
-					snippetChars => false,
-					pinIcon => false,
-					pinIconSelected => false,
-					minTopicsForMenu => false
-				}
+				sourceUrl => "https://wiktionary.org", #wiktionary
+				soureName => "Wiktionary "			
 			},
-			#view => 'tiles',
 			templates => {
-				item => 'media_item',
-#				detail => 'media_detail', #might as well try everything
-				item_detail => 'media_item_detail',
+				group => 'base',
+				detail => 'basic_info_detail',
 				options => {
-				#	altSubtitle => false, subtitle => false, description => false, footer => false, dateBadge => false,	
-					#callout => true,
-				#	moreAt => true, aux => false,
-					item => true,
-					item_detail => true,
-#
-					
+					content => 'DDH.kanji_strokeorder.content',
 				}
 			}
-
-		
-}
-		};
-#};
+} ; };
+1;
 ## get_kanji_frames($image); 
 
 
@@ -172,16 +128,17 @@ handle remainder => sub {
   #      };
 #};
 
-#Thanks, GuitarChords.pm!
-sub get_kanji_animated
-{
-    goodie_img_tag({filename=>$_[0].'_animated.svg', width=>78});
-}
-
-sub get_kanji_frames
-{
-    goodie_img_tag({filename=>$_[0].'_frames.svg'});
-
-}
+#sub get_kanji_animated
+#{
+#    return share('svgs/'.ord("@_").'_animated.svg');
+#}
+#
+#sub get_kanji_frames
+##goodie_img_tag
+#{
+#print share('svgs/'.ord("@_").'_frames.svg');
+#   return  share('svgs/'.ord("@_").'_frames.svg');
+#
+#}
 
 1;

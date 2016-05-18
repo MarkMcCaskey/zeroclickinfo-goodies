@@ -1,26 +1,26 @@
 <svg width="109px" height="109px" viewBox="0 0 px 109px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"  baseProfile="full">
 <path d="M12.25,35.08c0.76,0.74,1.2,1.63,1.33,2.68c0.99,3.95,2.06,11.18,2.88,17.46c0.22,1.69,0.42,3.31,0.6,4.78" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 <path d="M14.4,36.71c8.72-1.71,16.5-2.94,21.22-3.56c2.13-0.28,3.75,1.35,3.25,3.5c-1.08,4.64-2.02,9.66-3.38,16.06" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="1s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="1s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 <path d="M17.24,56.02c4.42-0.53,10.24-1.37,16.27-2.2c1.21-0.17,2.37-0.32,3.64-0.24" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="2s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="2s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 <path d="M74.92,11.75c0,1.12-0.58,2.25-1.74,2.95C67,18.5,57.12,22.62,43.62,26.54" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="3s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="3s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 <path d="M47.75,35c2.33,2.33,6.02,9.59,6.6,13.22" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="4s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="4s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 <path d="M88.68,25.39c0.09,0.99,0.02,1.97-0.33,2.89c-1.73,4.59-4.98,10.34-9.92,15.81" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="5s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="5s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 <path d="M35.75,61.12c3.12,0.63,7.64,0.08,10.63-0.46c10.7-1.92,30.94-5.38,43.38-6.49c3.04-0.27,6-0.54,9,0.2" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="6s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="6s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 <path d="M63.66,22.96C72,33.88,72.62,66.5,67.68,90.34c-2.18,10.5-9.05,1.09-10.43-0.18" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="7s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="7s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 </svg>

@@ -1,5 +1,5 @@
 <svg width="109px" height="109px" viewBox="0 0 px 109px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1"  baseProfile="full">
 <path d="M85.05,32.4c-6.94-13.73-19.8-16.76-29.91-16.76c-14.02,0-30.64,12.43-30.64,34.39c0,25.58,10.85,42.49,31.38,42.49c19.64,0,24.41-9.1,28.6-19.36" style="fill:none;stroke:black;stroke-width:3;opacity:0">
-  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="0" fill="freeze" />
+  <animate attributeType="CSS" attributeName="opacity" from="0" to="1" begin="0s" dur="1s" repeatCount="Indefinite" fill="freeze" />
 </path>
 </svg>
